@@ -1,7 +1,13 @@
 ---
 name: class-structure
-description: This skill defines the basic structure of a class in nopCommerce.
+description: >-
+  Defines the mandatory #region layout (Fields, Properties, Ctor, Utilities,
+  Methods) that every nopCommerce plugin class or record must follow,
+  including where private helper methods belong. Use whenever writing or
+  restructuring a Controller, Service, ModelFactory, Validator, Builder, or
+  any other C# class in a plugin, regardless of what the class does.
 ---
+
 # Basic Structure of a class in nopCommerce
 
 ## When to use

@@ -1,6 +1,12 @@
 ---
 name: models
-description: Create and maintain view models for nopCommerce plugins following established patterns for API request/response DTOs, admin configuration models, Kendo grid search/list models, entity display models, and AJAX response models.
+description: >-
+  Create nopCommerce plugin view models — API request/response DTOs, admin
+  ISettingsModel configuration models, Kendo grid BaseSearchModel/
+  BasePagedListModel pairs, BaseNopEntityModel display rows, and AJAX/JSON
+  response models — using the correct base class and namespace for each
+  category. Use when adding any new view model (public or admin), a new API
+  endpoint, an admin Kendo grid list page, or an AJAX action.
 ---
 
 # nopCommerce Plugin View Models Skill

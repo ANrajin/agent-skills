@@ -1,7 +1,14 @@
 ---
 name: controllers
-description: Instructions for writing controllers in nopCommerce.
+description: >-
+  Create MVC controllers for nopCommerce plugins, picking the correct base
+  class (BaseAdminController/BasePublicController for custom plugins,
+  NopStationAdminController/NopStationPublicController for NopStation
+  plugins) and avoiding attributes, try-catch blocks, or manual validation
+  the base class already provides. Use when adding a new admin or public
+  controller, or a new action method, to a plugin.
 ---
+
 # Controllers in nopCommerce
 
 ## When to use

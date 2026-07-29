@@ -1,6 +1,13 @@
 ---
 name: viewcomponents
-description: Create and manage ViewComponents in nopCommerce plugins for widgets, payment info, and reusable UI blocks.
+description: >-
+  Create ViewComponents (inheriting NopViewComponent) for nopCommerce plugins
+  — widget-zone content, payment-info/checkout blocks, and other reusable UI
+  fragments — covering the (widgetZone, additionalData) InvokeAsync
+  signature, guard-clause ordering, view-resolution conventions, and
+  IWidgetPlugin registration. Use when rendering a UI fragment from a
+  controller or view, building a widget plugin's zone content, or adding
+  payment/checkout UI.
 ---
 
 # ViewComponents in nopCommerce

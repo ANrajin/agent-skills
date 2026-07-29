@@ -1,6 +1,14 @@
 ---
 name: plugin-scaffold
-description: Generate a complete nopCommerce plugin scaffolding with correct folder structure, naming conventions, and boilerplate code following architectural patterns.
+description: >-
+  Scaffold a brand-new nopCommerce plugin from scratch: folder structure,
+  plugin.json, {Name}Defaults, BaseNameCompatibility, SchemaMigration,
+  NopStartup DI registration, ViewLocationExpander, and RouteProvider,
+  including NopStation-specific naming rules and per-plugin-type guidance
+  (payment, widget, shipping, tax, etc.). Use when starting a new plugin
+  project — always ask first whether it's a NopStation or custom plugin,
+  then load the matching type-specific scaffold file once the plugin type
+  is known.
 ---
 
 # Plugin-Scaffold Skill

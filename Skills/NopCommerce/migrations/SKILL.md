@@ -1,6 +1,12 @@
 ---
 name: migrations
-description: This skill defines the basic structure of a schema migration in nopCommerce.
+description: >-
+  Write nopCommerce plugin schema migrations with FluentMigrator, choosing
+  between Migration, AutoReversingMigration, and ForwardOnlyMigration and the
+  correct MigrationProcessType (Installation/Update/NoMatter). Use when
+  creating a new table, altering columns on an existing table, or making any
+  other schema change for a plugin — always ask the user for the migration
+  type and process type, and bump the plugin.json version afterward.
 ---
 # Basic Structure of a schema migration in nopCommerce
 

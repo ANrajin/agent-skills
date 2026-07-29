@@ -1,7 +1,13 @@
 ---
 name: domains
-description: This skill defines the basic structure of a domain entity in nopCommerce.
+description: >-
+  Create a nopCommerce plugin domain entity (BaseEntity subclass) along with
+  its supporting data-layer files — BaseNameCompatibility table-name mapping
+  and the FluentMigrator entity Builder. Use when adding a new database
+  table/entity to a plugin; this always requires asking the user for the
+  TablePrefix before generating anything.
 ---
+
 # Basic Structure of a data layer in nopCommerce
 
 ## When to Use

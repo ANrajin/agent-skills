@@ -1,6 +1,13 @@
 ---
 name: localization
-description: Implement nopCommerce plugin localization following established patterns — resource key definition, model binding with NopResourceDisplayName, Razor @T() usage, validator messages, controller notifications, service/task logging, enum display names, and admin menu titles.
+description: >-
+  Implement nopCommerce plugin localization end-to-end: defining resource
+  keys in GetPluginResources(), binding them via [NopResourceDisplayName],
+  using @T() in Razor views, wiring FluentValidation error messages,
+  controller success/error notifications, localized service/task logging,
+  localized enum display names, and admin menu titles. Use whenever a plugin
+  adds or touches any user-facing string, not only when first defining
+  resource keys.
 ---
 
 # Localization Skill
@@ -8,7 +15,6 @@ description: Implement nopCommerce plugin localization following established pat
 ## When to Use
 
 Activate this skill when:
-
 - Defining new localized string resources in a plugin's `GetPluginResources()` method
 - Adding `[NopResourceDisplayName]` attributes to model properties
 - Using `@T()` in Razor views (page titles, card headers, grid columns, buttons, alerts, modals, JavaScript)

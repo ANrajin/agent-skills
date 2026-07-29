@@ -1,6 +1,12 @@
 ---
 name: admin-menu
-description: Create admin menu items in nopCommerce plugins across all versions — covering both AdminMenuCreatedEvent (v4.80+) and IAdminMenuPlugin/ManageSiteMapAsync (v4.70 and below) patterns.
+description: >-
+  Add, modify, or reposition admin menu items for a nopCommerce plugin,
+  selecting between the v4.80+ AdminMenuCreatedEvent/IConsumer<T> pattern and
+  the v4.70-and-below IAdminMenuPlugin/SiteMapNode pattern based on target
+  version, and converting a plugin between the two. Use when a plugin needs a
+  link in the admin sidebar, when nesting sub-menu items, or when gating menu
+  visibility behind a permission check.
 ---
 
 # Admin Menu Item Creation in nopCommerce
